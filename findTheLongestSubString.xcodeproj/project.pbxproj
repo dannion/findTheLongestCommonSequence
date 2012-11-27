@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A74F7F16648E2F00615AED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A74F7E16648E2F00615AED /* main.cpp */; };
+		64A74F8116648E2F00615AED /* findTheLongestSubString.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64A74F8016648E2F00615AED /* findTheLongestSubString.1 */; };
+		64A74F891664901800615AED /* LongSubSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A74F871664901800615AED /* LongSubSequence.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64A74F7816648E2F00615AED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				64A74F8116648E2F00615AED /* findTheLongestSubString.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64A74F7A16648E2F00615AED /* findTheLongestSubString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = findTheLongestSubString; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A74F7E16648E2F00615AED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64A74F8016648E2F00615AED /* findTheLongestSubString.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = findTheLongestSubString.1; sourceTree = "<group>"; };
+		64A74F871664901800615AED /* LongSubSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongSubSequence.cpp; sourceTree = "<group>"; };
+		64A74F881664901800615AED /* LongSubSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongSubSequence.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A74F7716648E2F00615AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A74F6F16648E2F00615AED = {
+			isa = PBXGroup;
+			children = (
+				64A74F7D16648E2F00615AED /* findTheLongestSubString */,
+				64A74F7B16648E2F00615AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A74F7B16648E2F00615AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A74F7A16648E2F00615AED /* findTheLongestSubString */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A74F7D16648E2F00615AED /* findTheLongestSubString */ = {
+			isa = PBXGroup;
+			children = (
+				64A74F871664901800615AED /* LongSubSequence.cpp */,
+				64A74F881664901800615AED /* LongSubSequence.h */,
+				64A74F7E16648E2F00615AED /* main.cpp */,
+				64A74F8016648E2F00615AED /* findTheLongestSubString.1 */,
+			);
+			path = findTheLongestSubString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A74F7916648E2F00615AED /* findTheLongestSubString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A74F8416648E2F00615AED /* Build configuration list for PBXNativeTarget "findTheLongestSubString" */;
+			buildPhases = (
+				64A74F7616648E2F00615AED /* Sources */,
+				64A74F7716648E2F00615AED /* Frameworks */,
+				64A74F7816648E2F00615AED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = findTheLongestSubString;
+			productName = findTheLongestSubString;
+			productReference = 64A74F7A16648E2F00615AED /* findTheLongestSubString */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A74F7116648E2F00615AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = dannionQ;
+			};
+			buildConfigurationList = 64A74F7416648E2F00615AED /* Build configuration list for PBXProject "findTheLongestSubString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64A74F6F16648E2F00615AED;
+			productRefGroup = 64A74F7B16648E2F00615AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A74F7916648E2F00615AED /* findTheLongestSubString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A74F7616648E2F00615AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A74F7F16648E2F00615AED /* main.cpp in Sources */,
+				64A74F891664901800615AED /* LongSubSequence.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64A74F8216648E2F00615AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64A74F8316648E2F00615AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64A74F8516648E2F00615AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64A74F8616648E2F00615AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A74F7416648E2F00615AED /* Build configuration list for PBXProject "findTheLongestSubString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A74F8216648E2F00615AED /* Debug */,
+				64A74F8316648E2F00615AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A74F8416648E2F00615AED /* Build configuration list for PBXNativeTarget "findTheLongestSubString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A74F8516648E2F00615AED /* Debug */,
+				64A74F8616648E2F00615AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A74F7116648E2F00615AED /* Project object */;
+}
